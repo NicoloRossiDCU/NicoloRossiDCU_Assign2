@@ -39,6 +39,7 @@
         android:background="#7B8E60"
         android:paddingTop="40dp"
         android:text="@string/intent_callActivity_text_view"
+        android:onClick="explicitIntentComposer"
         android:textColor="#070707"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,11 +56,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="304dp"
         android:layout_marginTop="24dp"
+        android:enabled="false"
         android:text="@string/button_send"
         app:cornerRadius="5dp"
         app:layout_constraintStart_toStartOf="parent"

@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
         intent.setType("image/*");
         startActivity(intent);
     }
+
+    public void explicitIntentComposer(View view) {
+        Intent intent = new Intent(this, EmailComposerActivity.class);
+        startActivity(intent);
+    }
 }
