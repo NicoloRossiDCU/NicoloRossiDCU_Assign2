@@ -8,5 +8,5 @@
     <string name="placeholder_to">To:</string>
     <string name="placeholder_subject">Subject:</string>
     <string name="placeholder_compose">Compose:</string>
-
+    <string name="error_data_invalid">Error data inserted not complete</string>
 </resources>
